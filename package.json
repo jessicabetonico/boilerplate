@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint src --max-warnings=0",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "jest"
   },
   "lint-staged": {
     "src/**/*": [
@@ -15,9 +16,12 @@
     ]
   },
   "dependencies": {
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/jest": "^27.0.2",
     "@typescript-eslint/eslint-plugin": "^5.2.0",
     "@typescript-eslint/parser": "^5.2.0",
     "eslint-plugin-react": "^7.26.1",
+    "jest": "^27.3.1",
     "next": "11.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2"
