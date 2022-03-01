@@ -1,7 +1,15 @@
 Hi!
-How are you?
 
-This is a [Next.js](https://nextjs.org/) boilerplate to help.
+How are you? I hope you are well!
+
+This is a [Next.js](https://nextjs.org/) boilerplate to help you.
+
+## How to use?
+
+To use this boilerplate, use the following command
+
+yarn create next-app -e [Project URL] 
+
 ## What is inside?
 
 This project uses lot of stuff as:
